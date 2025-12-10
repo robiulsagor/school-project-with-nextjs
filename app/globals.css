@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme{
+     --color-orange-65: #FF8D4C;
+    --color-orange-70: #FF9E66;
+    --color-orange-75: #FFAE80;
+    --color-orange-80: #FFBF99;
+    --color-orange-90: #FFDECC; 
+    --color-orange-95: #FFEFE5;
+    --color-orange-97: #FFF5F0;
+    --color-orange-99: #FFFCFA;
+}
+
+.nav_link{
+    @apply px-4 p-3 block relative after:absolute after:content-[''] after:w-full after:h-full after:bg-orange-90 after:left-0 after:bottom-0 after:opacity-0 hover:after:opacity-80 after:transition after:duration-200 after:-z-10
+}
