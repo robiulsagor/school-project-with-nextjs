@@ -1,11 +1,21 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Outfit, Poppins, Raleway } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
+})
 
+const raleway = Raleway({
+  subsets: ["latin"],
+  variable: "--font-raleway",
+})
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ["400", "700"],
 })
 
 export const metadata: Metadata = {
@@ -21,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} antialiased flex justify-center items-center py-2`}
+        className={`${outfit.variable} ${raleway.variable} ${poppins.variable} font-outfit antialiased flex justify-center items-center py-2`}
       >
         <main className="w-full max-w-[1400px] px-4 border">
           {children}

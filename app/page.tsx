@@ -1,4 +1,5 @@
 import AdmissionAd from "./components/AdmissionAd";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="">
       <AdmissionAd />
       <Navbar />
+      <Hero />
     </div>
   );
 }
