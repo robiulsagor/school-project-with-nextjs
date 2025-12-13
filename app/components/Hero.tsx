@@ -2,11 +2,13 @@ import Image from "next/image"
 
 const Hero = () => {
     return (
-        <section className="flex items-center justify-center mt-6  py-6 rounded-lg  relative">
+        <section className="section">
             <Image src="/assets/design_gredient.png" width={800} height={600} alt="design gredient" className="absolute top-0 right-0 w-[120px] h-[120px] object-cover -z-10 opacity-45 rounded-lg  -scale-x-[1]" />
-            <div className="  w-[90%] flex items-center gap-12">
+            {/* design image */}
 
-                <Image src='/assets/hero_img.png' width={300} height={200} alt="hero image" className="w-[85%] h-auto object-cover" />
+            <div className="section_wrapper flex items-center gap-12">
+                <Image src='/assets/hero_img.png' width={300} height={300} alt="hero image" className="w-[90%] h-auto object-cover" />
+                {/* hero image */}
 
                 <div className="">
                     <span className="font-semibold underline">Welcome to Little Learners Academy</span>
