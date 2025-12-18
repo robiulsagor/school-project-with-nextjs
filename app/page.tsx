@@ -1,6 +1,6 @@
-import BenefitSection from "./BenefitSection";
-import AdmissionAd from "./components/AdmissionAd";
-import Hero from "./components/Hero";
+import BenefitSection from "./components/home/BenefitSection";
+import AdmissionAd from "./components/home/AdmissionAd";
+import Hero from "./components/home/Hero";
 import Navbar from "./components/Navbar";
 
 export default function Home() {

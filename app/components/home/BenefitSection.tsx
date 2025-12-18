@@ -1,4 +1,4 @@
-import SectionHeader from "./components/SectionHeader"
+import SectionHeader from "../SectionHeader"
 import BenefitCard from "./BenefitCard"
 
 const benefitData = [
