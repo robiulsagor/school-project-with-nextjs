@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} ${raleway.variable} ${poppins.variable} font-outfit antialiased flex justify-center items-center py-2`}
+        className={`${outfit.variable} ${raleway.variable} ${poppins.variable} font-outfit antialiased flex justify-center items-center py-2 bg-orange-97`}
       >
         <main className="w-full max-w-[1400px] px-4 border">
           {children}
