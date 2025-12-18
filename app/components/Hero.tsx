@@ -7,17 +7,20 @@ const Hero = () => {
             {/* design image */}
 
             <div className="section_wrapper flex items-center gap-12">
-                <Image src='/assets/hero_img.png' width={300} height={300} alt="hero image" className="w-[90%] h-auto object-cover" />
+                <div className="flex-1">
+
+                    <Image src='/assets/hero_img.png' width={300} height={300} alt="hero image" className="w-[95%] h-auto object-cover" />
+                </div>
                 {/* hero image */}
 
-                <div className="">
-                    <span className="font-semibold underline">Welcome to Little Learners Academy</span>
+                <div className="flex-1">
+                    <span className="font-semibold underline mb-1 block">Welcome to Little Learners Academy</span>
 
-                    <h2 className="text-[45px] font-extrabold leading-tight font-raleway">Where Young Minds Blossom and <span className="text-orange-65"> Dreams Take Flight. </span></h2>
+                    <h2 className="text-[42px] font-extrabold leading-tight font-raleway">Where Young Minds Blossom and <span className="text-orange-65"> Dreams Take Flight. </span></h2>
 
-                    <p className="pt-4 pb-8 text-lg w-[90%]">Our kinder garden school provides a nurturing environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together.</p>
+                    <p className="pt-6 pb-10 text-lg w-[90%]">Our kinder garden school provides a nurturing environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together.</p>
 
-                    <div className="w-[95%] border rounded-lg py-5 px-8 flex items-center justify-between  bg-orange-97  relative after:absolute after:content-['-'] after:w-full after:h-full after:top-2 after:left-2 after:bg-orange-80 after:rounded-lg after:-z-10">
+                    <div className="w-full border rounded-lg py-5 px-8 flex items-center justify-between  bg-orange-97 text-gray-15 relative after:absolute after:content-['-'] after:w-full after:h-full after:top-2 after:left-2 after:bg-orange-80 after:rounded-lg after:-z-10">
                         <div>
                             <h1 className="text-4xl font-bold">+7000</h1>
                             <span>Students Passed Out</span>
