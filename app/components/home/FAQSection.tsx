@@ -12,48 +12,40 @@ const faqs = [
     question: "What are the school hours at Little Learners Academy?",
     answer: `Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up.`
   },
-
   {
     id: 2,
-    question: "How do you handle food allergies and dietary restrictions?",
-    answer: `We take food allergies and dietary restrictions very seriously. Our kitchen staff is trained to prepare meals that accommodate various dietary needs, and we work closely with parents to ensure their child's safety and well-being.`
-  },
-
-
-  {
-    id: 3,
     question: "Is there a uniform policy for students?",
     answer: `Yes, we have a uniform policy to promote a sense of community and equality among our students. Our uniforms are comfortable and practical, designed to suit the active lifestyle of young children.`
   },
 
   {
-    id: 4,
-    question: "What is the teacher-to-student ratio at Little Learners Academy?",
-    answer: `We maintain a low teacher-to-student ratio to ensure personalized attention and support for each child. Our dedicated staff is committed to creating a nurturing and effective learning environment.`
+    id: 3,
+    question: "What extracurricular activities are available for students?",
+    answer: `We offer a variety of extracurricular activities, including art, music, sports, and dance. These activities are designed to enhance our students' creativity, physical fitness, and social skills.`
   },
 
+  {
+    id: 4,
+    question: "What extracurricular activities are available for students?",
+    answer: `We offer a variety of extracurricular activities, including art, music, sports, and dance. These activities are designed to enhance our students' creativity, physical fitness, and social skills.`
+  },
 
   {
     id: 5,
-    question: "What extracurricular activities are available for students?",
-    answer: `We offer a variety of extracurricular activities, including art, music, sports, and dance. These activities are designed to enhance our students' creativity, physical fitness, and social skills.`
+    question: "How do you handle food allergies and dietary restrictions?",
+    answer: `We take food allergies and dietary restrictions very seriously. Our kitchen staff is trained to prepare meals that accommodate various dietary needs, and we work closely with parents to ensure their child's safety and well-being.`
   },
-
 
   {
     id: 6,
+    question: "What is the teacher-to-student ratio at Little Learners Academy?",
+    answer: `We maintain a low teacher-to-student ratio to ensure personalized attention and support for each child. Our dedicated staff is committed to creating a nurturing and effective learning environment.`
+  },
+  {
+    id: 7,
     question: "How do you handle discipline and behavior management?",
     answer: `We believe in positive reinforcement and proactive behavior management strategies. Our approach focuses on teaching children self-regulation, empathy, and respect for others, creating a supportive and inclusive environment.`
   },
-
-
-  {
-    id: 7,
-    question: "What extracurricular activities are available for students?",
-    answer: `We offer a variety of extracurricular activities, including art, music, sports, and dance. These activities are designed to enhance our students' creativity, physical fitness, and social skills.`
-  },
-
-
   {
     id: 8,
     question: "How do I apply for admission to Little Learners Academy?",
@@ -72,7 +64,7 @@ const FAQSection = () => {
           description="Find all the essestial information you need in our FAQ section, designed to address common questions and and help you make informed decisions for your child's education."
         />
 
-        <div className="px-20 mt-20 text-center">
+        <div className="mt-20 text-center">
           <Accordion
             type="single"
             collapsible
