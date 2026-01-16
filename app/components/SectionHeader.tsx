@@ -12,7 +12,7 @@ const SectionHeader = (
     return (
         <div className="text-center">
             {
-                subheading && <span className="border rounded-md py-1.5 px-2.5 bg-white">{subheading} </span>
+                subheading && <span className="border-2 border-gray-20 rounded py-1.5 px-2.5 bg-white">{subheading} </span>
             }
 
             <h2 className="text-5xl font-bold my-6 font-raleway">
