@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Outfit, Poppins, Raleway } from "next/font/google";
+
 import "./globals.css";
+
 
 const outfit = Outfit({
   subsets: ["latin"],

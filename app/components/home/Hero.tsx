@@ -6,7 +6,7 @@ const Hero = () => {
             <Image src="/assets/design_gredient.png" width={800} height={600} alt="design gredient" className="absolute top-0 right-0 w-[120px] h-[120px] object-cover -z-10 opacity-45 rounded-lg  -scale-x-[1]" />
             {/* design image */}
 
-            <div className="section_wrapper flex items-center gap-12">
+            <div className="container flex items-center gap-12">
                 <div className="flex-1">
 
                     <Image src='/assets/hero_img.png' width={300} height={300} alt="hero image" className="w-[95%] h-auto object-cover" />

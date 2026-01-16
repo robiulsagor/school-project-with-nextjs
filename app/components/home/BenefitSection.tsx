@@ -43,7 +43,7 @@ const benefitData = [
 const BenefitSection = () => {
     return (
         <section className="section">
-            <div className="section_wrapper mt-12 py-10">
+            <div className="container mt-12 py-10">
                 <SectionHeader
                     subheading="Clidren Deserve Bright Future"
                     heading="Our Benefits"
