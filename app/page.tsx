@@ -4,6 +4,7 @@ import Hero from "./components/home/Hero";
 import Navbar from "./components/Navbar";
 import TestimonialSection from "./components/home/TestimonialSection";
 import FAQSection from "./components/home/FAQSection"
+import NavigatePage from "./components/home/NavigatePage";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BenefitSection />
       <TestimonialSection />
       <FAQSection />
+      <NavigatePage />
     </div>
   );
 }
