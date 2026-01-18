@@ -57,7 +57,7 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="section">
+    <section className="section" id="faqs">
       <div className="container mt-12 py-10">
         <SectionHeader subheading="Solutions for the doubts"
           heading="Frequently asked questions"

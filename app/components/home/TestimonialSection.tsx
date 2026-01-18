@@ -79,7 +79,7 @@ const responsive = {
 
 const TestimonialSection = () => {
     return (
-        <section className="section">
+        <section className="section" id="testimonials">
             <div className="container mt-12 py-10">
                 <SectionHeader subheading="Their happy words "
                     heading="Our Testimonials"
