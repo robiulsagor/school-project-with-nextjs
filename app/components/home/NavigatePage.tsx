@@ -39,7 +39,7 @@ const NavigatePage = () => {
                     description="Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school"
                 />
 
-                <div className="grid grid-cols-2 gap-8 mt-10 w-[80%] mx-auto">
+                <div className="grid grid-cols-2 gap-8 mt-10 w-full mx-auto">
                     {
                         navigatePageData.map((item) => (
                             <NavigatePageCard
