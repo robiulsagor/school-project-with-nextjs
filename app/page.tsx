@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import TestimonialSection from "./components/home/TestimonialSection";
 import FAQSection from "./components/home/FAQSection"
 import NavigatePage from "./components/home/NavigatePage";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TestimonialSection />
       <FAQSection />
       <NavigatePage />
+      <Footer />
     </div>
   );
 }
