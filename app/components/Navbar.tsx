@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="border mt-1.5 rounded-md flex justify-between items-center overflow-hidden ">
             <div className="p-2 bg-orange-65">
-                <Image src='/assets/logo.png' width={150} height={60} alt="logo" />
+                <Image src='/assets/logo.svg' width={150} height={60} alt="logo" />
             </div>
 
             <ul className="flex gap-0 text-sm md:text-base">
